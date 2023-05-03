@@ -1,0 +1,18 @@
+{
+  "name": "heroku_workplace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "env": "^0.0.2",
+    "express": "^4.18.1",
+    "forge-convert-utils": "^4.0.1",
+    "forge-server-utils": "^8.4.0",
+    "fs-extra": "^10.1.0",
+    "gltfpack": "^0.17.0",
+    "sqlite3": "^5.0.8"
+  },"scripts": {
+    "start": "node ./app.js"
+  }
+}
